@@ -9,15 +9,15 @@ body {overflow-x: hidden;}
     transition: all 0.5s ease;
 }
 
-#wrapper.toggled {padding-left: 250px;}
+#wrapper.toggled {padding-left: 200px;}
 
 #sidebar-wrapper {
     z-index: 1000;
     position: fixed;
-    left: 250px;
+    left: 200px;
     width: 0;
     height: 100%;
-    margin-left: -250px;
+    margin-left: -200px;
     overflow-y: auto;
     background: #000;
     -webkit-transition: all 0.5s ease;
@@ -26,11 +26,11 @@ body {overflow-x: hidden;}
     transition: all 0.5s ease;
 }
 
-#wrapper.toggled #sidebar-wrapper {width: 250px;}
+#wrapper.toggled #sidebar-wrapper {width: 200px;}
 
 #page-content-wrapper {width: 100%; position: absolute;}
 
-#wrapper.toggled #page-content-wrapper {position: absolute; margin-right: -250px;}
+#wrapper.toggled #page-content-wrapper {position: absolute; margin-right: -200px;}
 
 
 
@@ -50,6 +50,7 @@ body {overflow-x: hidden;}
 .sidebar-nav li a:hover {text-decoration: none;color: #fff;background: rgba(255,255,255,0.2);}
 
 .sidebar-nav li a:active,
+
 .sidebar-nav li a:focus {
     text-decoration: none;}
 
@@ -83,9 +84,10 @@ body {overflow-x: hidden;}
 
 .land{background:#1a1a1a;color:white; width:100}
 
-.landtext{text-align:right; margin:3%8%0%0%;}
+.landtext{text-align:right; margin:7%10%0%0%;}
 
 .headerbutton{border:none;background:white;padding:0%1%;display:inline-block;}
+#menu-toggle:focus{outline:none;}
 
 .btn {padding:1%5%;border-radius:30px;}
 
@@ -93,17 +95,20 @@ body {overflow-x: hidden;}
 
 .butang:hover {background:#0470aa;opacity:0.8;}
 
-a{font-size:1.8vw;color:white; text-decoration:none;}
+a{color:white; text-decoration:none;font-size:2.1vw}
 a:hover{color:white;text-decoration: none;}
 
-p{font-family: 'Roboto', sans-serif;font-size: 1.8vw;}
+p{font-family: 'Roboto', sans-serif;font-size:2vw;}
+
 
 h1, h2, h3, h4, #kaki {font-family: 'Anton', sans-serif;}
 
 h1{font-size:8vw;padding-bottom:2%;}
+h2{font-size:4vw;}
+h3{color:black;  line-height:20%;padding-top:5%;}
 
 .section{padding: 5%15%0%}
-.landtext{margin:auto 5%}
+
 #landimg{max-width:100%; margin:0;}
    
 .img-fluid{max-width:70%; max-height:auto; margin:5% auto;}
@@ -111,7 +116,7 @@ h1{font-size:8vw;padding-bottom:2%;}
 .shop{margin:0% 8%}
 
 .shoe {
-	margin:2%5%; 
+	margin:2%5%4%; 
 	padding:2%0%;
 	background:rgba(157,217,237,0.56); 
 	border-radius:30px;
@@ -149,5 +154,5 @@ iframe{padding-bottom: 2%;}
 ul{list-style-type:none;}
 
 #kaki{;background:#000000;padding:2%0%1.5%; margin-top:8%; }
-#kaki a{font-size: 2vw}
+#kaki a{font-size:20px}
 #kaki a:hover{color:grey; text-decoration:none;}
