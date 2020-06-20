@@ -58,11 +58,11 @@ body {overflow-x: hidden;}
 @media(min-width:768px) {
     #wrapper {padding-left: 0px;}
 
-    #wrapper.toggled {padding-left: 250;}
+    #wrapper.toggled {padding-left: 200;}
 
-    #sidebar-wrapper {width: -250px;}
+    #sidebar-wrapper {width: -200px;}
 
-    #wrapper.toggled #sidebar-wrapper {width: 250;}
+    #wrapper.toggled #sidebar-wrapper {width: 200;}
 
     #page-content-wrapper {position: relative;}
 
@@ -77,6 +77,7 @@ body {overflow-x: hidden;}
 
 .container{padding:0;}
 .container:hover .icon {opacity: 0.3;}
+.container:focus .icon {opacity:1.0;}
 
 #kepala{padding: 1%0%;}
 
@@ -94,6 +95,8 @@ body {overflow-x: hidden;}
 .butang{padding: 1%8%2%;margin:2%0%7%;border-radius:30px;border:none;background:#06a0ff;transition: .5 ease;}
 
 .butang:hover {background:#0470aa;opacity:0.8;}
+
+.butang:focus {background:#06a0ff;transition: .5 ease;}
 
 a{color:white; text-decoration:none; font-size:16px}
 a:hover{color:white;text-decoration: none;}
@@ -156,3 +159,4 @@ ul{list-style-type:none;}
 #kaki{;background:#000000;padding:2%0%1.5%; margin-top:8%; }
 #kaki a{font-size:20px}
 #kaki a:hover{color:grey; text-decoration:none;}
+#kaki a:focus{color:white; transition: .5 ease;}
