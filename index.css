@@ -28,7 +28,7 @@ body {overflow-x: hidden;}
 
 #wrapper.toggled #sidebar-wrapper {width: 200px;}
 
-#page-content-wrapper {width: 100%; position: absolute;}
+#page-content-wrapper {width: 100%; position: absolute;overflow-x: hidden;}
 
 #wrapper.toggled #page-content-wrapper {position: absolute; margin-right: -200px;}
 
@@ -92,7 +92,7 @@ body {overflow-x: hidden;}
 
 .btn {padding:1%5%;border-radius:30px;}
 
-.butang{padding: 1%8%2%;margin:2%0%7%;border-radius:30px;border:none;background:#06a0ff;transition: .5 ease;}
+.butang{padding: 2%8%;margin:2%0%7%;border-radius:30px;border:none;background:#06a0ff;transition: .5 ease;}
 
 .butang:hover {background:#0470aa;opacity:0.8;}
 
@@ -112,7 +112,7 @@ h3{color:black; line-height:1%;padding:5%0%;}
 
 .section{padding: 5%15%0%}
 
-#landimg{max-width:100%; margin:0;}
+#landimg{min-width:100%; margin:0;}
    
 .img-fluid{max-width:70%; max-height:auto; margin:5% auto 7%;}
 
