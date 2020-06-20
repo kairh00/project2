@@ -84,39 +84,39 @@ body {overflow-x: hidden;}
 
 .land{background:#1a1a1a;color:white; width:100}
 
-.landtext{text-align:right; margin:7%10%0%0%;}
+.landtext{text-align:right; margin-right:5%;}
 
 .headerbutton{border:none;background:white;padding:0%1%;display:inline-block;}
 #menu-toggle:focus{outline:none;}
 
 .btn {padding:1%5%;border-radius:30px;}
 
-.butang{padding: 1%10%2%;margin:2%0%;border-radius:30px;border:none;background:#06a0ff;transition: .5 ease;}
+.butang{padding: 1%8%2%;margin:2%0%7%;border-radius:30px;border:none;background:#06a0ff;transition: .5 ease;}
 
 .butang:hover {background:#0470aa;opacity:0.8;}
 
-a{color:white; text-decoration:none;font-size:2.1vw}
+a{color:white; text-decoration:none; font-size:20px}
 a:hover{color:white;text-decoration: none;}
 
-p{font-family: 'Roboto', sans-serif;font-size:2vw;}
+p{font-family: 'Roboto', sans-serif;}
 
 
 h1, h2, h3, h4, #kaki {font-family: 'Anton', sans-serif;}
 
-h1{font-size:8vw;padding-bottom:2%;}
+h1{font-size:10vw;padding-top:7%;}
 h2{font-size:4vw;}
 h3{color:black; line-height:1%;padding:5%0%;}
 
 .section{padding: 5%15%0%}
 
-#landimg{max-width:100%; margin:0;}
+#landimg{max-width:115%; margin:0;}
    
 .img-fluid{max-width:70%; max-height:auto; margin:5% auto 7%;}
 
 .shop{margin:0% 15%}
 
 .shoe {
-	margin:2%3%4%; 
+	margin:4%3%; 
 	padding:2%0%3%;
 	background:rgba(157,217,237,0.56); 
 	border-radius:30px;
