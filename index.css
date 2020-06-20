@@ -28,7 +28,7 @@ body {overflow-x: hidden;}
 
 #wrapper.toggled #sidebar-wrapper {width: 200px;}
 
-#page-content-wrapper {width: 100%; position: absolute;overflow-x: hidden;}
+#page-content-wrapper {width: 100%; position: absolute;}
 
 #wrapper.toggled #page-content-wrapper {position: absolute; margin-right: -200px;}
 
@@ -37,7 +37,7 @@ body {overflow-x: hidden;}
 .sidebar-nav {
     position: absolute;
     top: 0;
-    width: 200px;
+    width: 250px;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -58,11 +58,11 @@ body {overflow-x: hidden;}
 @media(min-width:768px) {
     #wrapper {padding-left: 0px;}
 
-    #wrapper.toggled {padding-left: 200;}
+    #wrapper.toggled {padding-left: 250;}
 
-    #sidebar-wrapper {width: -200px;}
+    #sidebar-wrapper {width: -250px;}
 
-    #wrapper.toggled #sidebar-wrapper {width: 200;}
+    #wrapper.toggled #sidebar-wrapper {width: 250;}
 
     #page-content-wrapper {position: relative;}
 
@@ -77,26 +77,23 @@ body {overflow-x: hidden;}
 
 .container{padding:0;}
 .container:hover .icon {opacity: 0.3;}
-.container:focus .icon {opacity:1.0;}
 
 #kepala{padding: 1%0%;}
 
 #logo{float:right;max-height:20px;margin:auto;}
 
-.land{background:#1a1a1a;color:white; width:100%}
+.land{background:#1a1a1a;color:white; width:100}
 
-.landtext{text-align:right; margin-right:6%;}
+.landtext{text-align:right; padding-right:6%;}
 
 .headerbutton{border:none;background:white;padding:0%1%;display:inline-block;}
 #menu-toggle:focus{outline:none;}
 
 .btn {padding:1%5%;border-radius:30px;}
 
-.butang{padding: 2%8%;margin:2%0%7%;border-radius:30px;border:none;background:#06a0ff;transition: .5 ease;}
+.butang{padding: 1%8%2%;margin:2%0%7%;border-radius:30px;border:none;background:#06a0ff;transition: .5 ease;}
 
 .butang:hover {background:#0470aa;opacity:0.8;}
-
-.butang:focus {background:#06a0ff;transition: .5 ease;}
 
 a{color:white; text-decoration:none; font-size:16px}
 a:hover{color:white;text-decoration: none;}
@@ -112,7 +109,7 @@ h3{color:black; line-height:1%;padding:5%0%;}
 
 .section{padding: 5%15%0%}
 
-#landimg{min-width:100%; margin:0;}
+#landimg{max-width:100%; margin:0;}
    
 .img-fluid{max-width:70%; max-height:auto; margin:5% auto 7%;}
 
@@ -159,4 +156,3 @@ ul{list-style-type:none;}
 #kaki{;background:#000000;padding:2%0%1.5%; margin-top:8%; }
 #kaki a{font-size:20px}
 #kaki a:hover{color:grey; text-decoration:none;}
-#kaki a:focus{color:white; transition: .5 ease;}
